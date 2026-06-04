@@ -796,7 +796,6 @@ table.transaction-table td .badge-salary {
   justify-content: space-between;
   padding-top: 70px;
 }
-
 .analysis .bar-group .bars {
   display: flex;
   align-items: flex-end;
@@ -960,6 +959,7 @@ table.transaction-table td .badge-salary {
   font-weight: 500;
   line-height: 20px;
   color: oklch(0.446 0.03 256.802);
+  cursor: pointer;
 }
 .payment-method .title span:hover {
   color: black;
@@ -967,7 +967,7 @@ table.transaction-table td .badge-salary {
 /* -------master card--------- */
 .payment-method .credit-card {
   background-color: transparent;
-  margin: 15px 0;
+  margin: 35px 0;
   height: 180px;
   perspective: 1000px;
 }
@@ -1006,8 +1006,9 @@ table.transaction-table td .badge-salary {
   position: absolute;
   top: -5px;
   left: 0;
-  width: 16%;
+  width: 14%;
   border-radius: 30px;
+  padding: 5px 0;
   background-color: rgba(159, 153, 215, 0.9);
   color: white;
   text-align: center;
@@ -1040,7 +1041,6 @@ table.transaction-table td .badge-salary {
   line-height: 28px;
   color: white;
   padding-top: 5px;
-  
 }
 .card-front .card-info {
   display: flex;
@@ -1091,7 +1091,7 @@ table.transaction-table td .badge-salary {
   background-color: #1e1e1e;
   border-color: #1e1e1e;
 }
-.card-back p.gray{
+.card-back p.gray {
   padding: 5px 0;
   font-size: 10px;
   font-weight: 600;
@@ -1153,44 +1153,33 @@ table.transaction-table td .badge-salary {
   border-radius: 5px;
 }
 /* ----------card 2--------- */
-.payment-method .credit-card .card-red
-.header-card::after {
+.payment-method .credit-card .card-red .header-card::after {
   display: none;
 }
-.credit-card .card-red{
-  background-color: #C70036;
+.credit-card .card-red {
+  background-color: #c70036;
 }
-.credit-card .card-red .master-card img{
+.credit-card .card-red .master-card img {
   width: 50px;
   height: auto;
 }
 /* ----------card 3--------- */
-.payment-method .credit-card 
-.light-blue
-.header-card::after {
+.payment-method .credit-card .light-blue .header-card::after {
   display: none;
 }
-.credit-card .light-blue{
-  background-color: #193CB8;
+.credit-card .light-blue {
+  background-color: #193cb8;
 }
-.credit-card .light-blue 
-.paypal img{
+.credit-card .light-blue .paypal img {
   width: 50px;
   height: auto;
 }
-.credit-card .light-blue .end-date p.green{
-  color: #0CA38C;
+.credit-card .light-blue .end-date p.green {
+  color: #0ca38c;
 }
-.credit-card .card-back .cvv-part
-p.word-big{
+.credit-card .card-back .cvv-part p.word-big {
   padding-left: 50px;
 }
-.credit-card .card-back .cvv-part
-.big{
+.credit-card .card-back .cvv-part .big {
   width: 25%;
 }
-
-
-
-
-

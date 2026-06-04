@@ -84,34 +84,34 @@
     display: inline;
     padding-right: 10px;
   }
-  .side-nav .nav-services ul li{
+  .side-nav .nav-services ul li {
     padding: 10px;
     margin-bottom: 10px;
   }
-  .nav-services ul li i{
+  .nav-services ul li i {
     padding: 10px;
   }
-  .nav-services ul li i.fa-paper-plane{
-    background-color: #EAF3FF;
-    border: 1px solid #EAF3FF;
-    color: #155DFC;
+  .nav-services ul li i.fa-paper-plane {
+    background-color: #eaf3ff;
+    border: 1px solid #eaf3ff;
+    color: #155dfc;
   }
-  .nav-services ul li i.fa-plus{
-    background-color: #E6FAEE;
-    border: 1px solid #E6FAEE;
-    color: #155DFC;
+  .nav-services ul li i.fa-plus {
+    background-color: #e6faee;
+    border: 1px solid #e6faee;
+    color: #155dfc;
   }
-  .nav-services ul li i.fa-receipt{
-    background-color: #F7EDFF;
-    border: 1px solid #F7EDFF;
-    color: #9810FA;
+  .nav-services ul li i.fa-receipt {
+    background-color: #f7edff;
+    border: 1px solid #f7edff;
+    color: #9810fa;
   }
-  .nav-services ul li i.fa-chart-line{
-    background-color: #FFF0E6;
-    border: 1px solid #FFF0E6;
-    color: #F75F1D;
+  .nav-services ul li i.fa-chart-line {
+    background-color: #fff0e6;
+    border: 1px solid #fff0e6;
+    color: #f75f1d;
   }
-    .nav-services ul li:hover {
+  .nav-services ul li:hover {
     border: 1px solid #f9fafb;
     background-color: #f9fafb;
     border-radius: 15px;
@@ -226,92 +226,152 @@
   }
   /* ------------section3------------ */
   .section-3 .three-divs {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  gap: 15px 20px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "recent transaction transaction"
-    "recent transaction transaction"
-    "recent transaction transaction"
-    "recent transaction transaction"
-    "monthly-bills transaction transaction"
-    "monthly-bills transaction transaction"
-    "monthly-bills transaction transaction"
-    "monthly-bills transaction transaction"
-    "monthly-bills transaction transaction";
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 15px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "recent transaction transaction"
+      "recent transaction transaction"
+      "recent transaction transaction"
+      "recent transaction transaction"
+      "monthly-bills transaction transaction"
+      "monthly-bills transaction transaction"
+      "monthly-bills transaction transaction"
+      "monthly-bills transaction transaction"
+      "monthly-bills transaction transaction";
+  }
 
-.recent { grid-area: recent; }
+  .recent {
+    grid-area: recent;
+  }
 
-.monthly-bills { grid-area: monthly-bills; }
+  .monthly-bills {
+    grid-area: monthly-bills;
+  }
 
-.transaction { grid-area: transaction; }
+  .transaction {
+    grid-area: transaction;
+  }
 
-.section-3 .transaction {
-  margin-top: 0px;
-}
-.section-3 .recent{
-margin-top: 0px;
-}
-/* ---------fonts-------------- */
-.recent h3 {
-font-size: 20px;
-font-weight: 600;
-line-height: 28px;
-}
-.recent .card .content h4 {
-font-size: 14px;
-font-weight: 700;
-line-height: 20px;
-}
-/* ----------table-section--------- */
-.transaction .title h4 {
-font-size: 18px;
-line-height: 28px;
-}
-.transaction .title span {
-font-size: 14px;
-line-height: 20px;
-}
-table.transaction-table th {
-font-size: 14px;
-line-height: 20px;
-}
-table.transaction-table td p {
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-}
-table.transaction-table td .content p.gray {
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 16px;
-}
-/* -----------monthly bills ---- */
-.section-3 .monthly-bills .title-bills h3 {
-font-size: 18px;
-line-height: 28px;
-}
-.section-3 .monthly-bills .title-bills span {
-font-size: 14px;
-line-height: 20px;
-}
-/* -----------spaces------------ */
-.section-3 .monthly-bills {
-margin-top: 0px;
-}
-.section-3 .transaction {
-  padding: 25px; 
-}
-table.transaction-table th {
-  padding: 10px 0;
-}
-table.transaction-table td {
-  padding: 15px 5px 15px 50px;
+  .section-3 .transaction {
+    margin-top: 0px;
+  }
+  .section-3 .recent {
+    margin-top: 0px;
+  }
+  /* ---------fonts-------------- */
+  .recent h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .recent .card .content h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  /* ----------table-section--------- */
+  .transaction .title h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .transaction .title span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  table.transaction-table th {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  table.transaction-table td p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  table.transaction-table td .content p.gray {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+  }
+  /* -----------monthly bills ---- */
+  .section-3 .monthly-bills .title-bills h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .section-3 .monthly-bills .title-bills span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* -----------spaces------------ */
+  .section-3 .monthly-bills {
+    margin-top: 0px;
+  }
+  .section-3 .transaction {
+    padding: 25px;
+  }
+  table.transaction-table th {
+    padding: 10px 0;
+  }
+  table.transaction-table td {
+    padding: 15px 5px 15px 50px;
+  }
+  /* -----------grid- 2 layout--------- */
+  .four-divs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-auto-columns: 1fr;
+    gap: 0px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "budget analysis payment-method"
+      "budget analysis payment-method"
+      "budget analysis payment-method"
+      "budget analysis payment-method"
+      "budget summary payment-method"
+      "budget summary payment-method"
+      "budget summary payment-method"
+      "budget summary payment-method";
+  }
 
+  .payment-method {
+    grid-area: payment-method;
+  }
 
-}
+  .analysis {
+    grid-area: analysis;
+  }
+
+  .summary {
+    grid-area: summary;
+  }
+
+  .budget {
+    grid-area: budget;
+  }
+  .payment-method {
+    margin-top: 0;
+  }
+  .analysis {
+    margin-top: 0;
+  }
+  .summary {
+    margin-top: 0;
+  }
+  .analysis .charts-group {
+    justify-content: space-evenly;
+    padding-top: 80px;
+  }
+  .budget .total-budget {
+    margin-top: 40px;
+  }
+  .budget .entertainment-budget {
+    margin-top: 40px;
+  }
+  .analysis .legend {
+    padding-top: 40px;
+  }
 }
