@@ -612,17 +612,29 @@ table.transaction-table td .badge-salary {
   color: oklch(0.446 0.03 256.802);
 }
 /* ---------bar----------- */
+@keyframes growBarFromZero {
+  from {
+    transform: scaleX(0); 
+  }
+  to {
+    transform: scaleX(1); 
+  }
+}
 .budget .bar {
   background-color: #e5e7eb;
   border-radius: 15px;
   margin-top: 10px;
+  overflow: hidden;
 }
 .budget .bar .fill-bar {
   width: 82.5%;
   height: 10px;
   background-color: #4f6fff;
   border-radius: 15px;
+  transform-origin: right center;
+  animation: growBarFromZero 1.5s ease-out forwards;
 }
+
 /* ----------entertainment-- */
 .budget .card {
   margin-top: 20px;
