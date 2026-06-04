@@ -1,0 +1,1196 @@
+body {
+  background-color: #f9fafb;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  padding-bottom: 20px;
+}
+html,
+body {
+  scrollbar-width: none;
+}
+/* ---------fonts -------*/
+.side-nav {
+  display: none;
+}
+.ibm-plex-sans-arabic-thin {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-extralight {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-light {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-regular {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-medium {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-semibold {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-bold {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* --------------------------------------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+/* --------------------------------------------- */
+/* -----header-section-------- */
+.gray {
+  color: #6a7282;
+}
+.border-div {
+  border: 2px solid #e1e3e7;
+}
+.section-1 .header {
+  background-color: #fcfdfe;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.section-1 .header .logo-content {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.section-1 .header .logo-content .status {
+  display: none;
+}
+.logo i {
+  color: white;
+  background-color: #2b51f2;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.title h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: oklch(0.21 0.034 264.665);
+  padding-bottom: 7px;
+}
+.title p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.section-1 .header .profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-1 .header .profile .icons i {
+  background-color: #fcfdfe;
+  color: #737c88;
+  padding: 5px;
+  border-radius: 10px;
+}
+.section-1 .header .profile .icons {
+  position: relative;
+}
+.section-1 .header .profile .icons i:hover {
+  background-color: #f9fafb;
+}
+.section-1 .header .profile .icons span {
+  text-align: center;
+  width: 12px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 9px;
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 30%;
+}
+.section-1 .header .profile-photo .profile-info p,
+span.gray {
+  display: none;
+}
+.section-1 .profile-photo {
+  width: 60px;
+  background-color: white;
+  padding: 7px 0;
+  border-radius: 10px;
+}
+.section-1 .profile-photo:hover {
+  box-shadow: 0 1px 4px 0 rgb(225, 227, 231);
+}
+.profile-photo img {
+  width: 60%;
+  display: block;
+  border-radius: 12px;
+  margin: auto;
+}
+.section-1 .status {
+  width: 90%;
+  background-color: #f0fdf4;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.section-1 .status i.fa-circle {
+  color: #73e29e;
+  font-size: 10px;
+}
+.section-1 .status p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: oklch(0.527 0.154 150.069);
+}
+/* -------------------------- */
+/* ---------section-2------------- */
+.green {
+  color: oklch(0.627 0.194 149.214);
+}
+.red {
+  color: oklch(0.577 0.245 27.325);
+}
+.section-2 {
+  margin-top: 20px;
+}
+.section-2 .cards p {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-bottom: 5px;
+}
+.section-2 .cards p.gray {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.section-2 .cards span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.cards .border-div {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+/* ----------------section-3------------- */
+/* ------recent activities------ */
+.blue {
+  color: #2b51f2;
+}
+.section-3 .recent {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+.recent h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 10px 0;
+}
+.section-3 .recent .card {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4%;
+  background-color: #eff6ff;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.section-3 .recent .account {
+  border-left: 5px solid #2b7fff;
+  background-color: #eff6ff;
+}
+.section-3 .recent .visa {
+  border-left: 5px solid #00c950;
+  background-color: #f0fdf4;
+  position: relative;
+}
+.section-3 .recent .visa::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  background-color: #f9fafb;
+}
+.section-3 .recent .icon i {
+  background-color: #dbeafe;
+  border: 1px solid #dbeafe;
+  padding: 7px;
+  border-radius: 50%;
+}
+.section-3 .recent .icon i.fa-credit-card {
+  background-color: #dbfce7;
+  border: 1px solid #dbfce7;
+}
+.recent .card .content h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.recent .card .content p,
+.account-word p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  padding-bottom: 10px;
+}
+/* ----btn----- */
+.section-3 .recent .btn {
+  text-align: center;
+  margin-top: 30px;
+}
+.section-3 .recent .btn button {
+  border: none;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+/* -----------table-section--------- */
+.section-3 .transaction {
+  background-color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #e1e3e7 rgba(225, 227, 231, 0.2);
+}
+.section-3 table.transaction-table {
+  border-collapse: collapse;
+  border-spacing: 0 15px;
+  width: 100%;
+  margin-top: 15px;
+}
+.transaction .title {
+  display: flex;
+  justify-content: space-between;
+}
+.transaction .title h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.transaction .title span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: oklch(0.446 0.03 256.802);
+  cursor: pointer;
+}
+.transaction .title span:hover {
+  color: black;
+}
+table.transaction-table th {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: right;
+  padding: 8px 0;
+  border-bottom: 1px solid #f9fafb;
+  color: oklch(0.373 0.034 259.733);
+}
+table.transaction-table td {
+  padding: 10px 0 10px 50px;
+  white-space: nowrap;
+  border-bottom: 1px solid #f9fafb;
+}
+table.transaction-table td p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.section-3 .transaction-table .cell .photo img {
+  width: 40px;
+  border-radius: 50%;
+}
+.transaction table.transaction-table .cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-3 .transaction-table .cell .icon-table i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+table.transaction-table td span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  width: max-content;
+}
+table.transaction-table td span.bg-color {
+  background-color: #dbfce7;
+}
+table.transaction-table td span.bg-dif-color {
+  background-color: #fef9c2;
+  color: oklch(0.476 0.114 61.907);
+}
+
+table.transaction-table td span.badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+/* ------colors-------- */
+table.transaction-table td .badge-education {
+  background-color: #d0fae5;
+  color: #006045;
+}
+table.transaction-table td .badge-health {
+  background-color: #cefafe;
+  color: oklch(0.45 0.085 224.283);
+}
+table.transaction-table td .badge-entertainment {
+  background-color: #e0e7ff;
+  color: oklch(0.398 0.195 277.366);
+}
+table.transaction-table td .badge-transport {
+  background-color: #ffe2e2;
+  color: oklch(0.444 0.177 26.899);
+}
+table.transaction-table td .badge-work {
+  background-color: #dbfce7;
+  color: oklch(0.448 0.119 151.328);
+}
+table.transaction-table td .badge-invoice {
+  background-color: #f3e8ff;
+  color: #8b51cb;
+}
+table.transaction-table td .badge-shopping {
+  background-color: #dbeafe;
+  color: oklch(0.424 0.199 265.638);
+}
+table.transaction-table td .badge-food {
+  background-color: #ffedd4;
+  color: oklch(0.47 0.157 37.304);
+}
+table.transaction-table td .badge-salary {
+  background-color: #dbfce7;
+}
+/* --------monthly bills----------- */
+/* ------text colors------ */
+.red-color {
+  color: oklch(0.637 0.237 25.331);
+}
+.orange-color {
+  color: oklch(0.705 0.213 47.604);
+}
+/* --------icons---------------- */
+.monthly-bills i {
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+.icon-internet {
+  background-color: #dbeafe;
+  color: #588cfd;
+}
+.icon-electric {
+  background-color: #fef9c2;
+  color: #d08700;
+}
+.icon-phone {
+  background-color: #dbfce7;
+  color: #02a73f;
+}
+.icon-netflix {
+  background-color: #ffe2e2;
+  color: #f37177;
+}
+.bg-div-color {
+  background-color: #f9fafb;
+}
+/* -----------fonts--------- */
+.section-3 .monthly-bills {
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 20px 15px;
+}
+.section-3 .monthly-bills .title-bills h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.section-3 .monthly-bills .title-bills span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: oklch(0.446 0.03 256.802);
+  cursor: pointer;
+}
+.section-3 .monthly-bills .title-bills span:hover {
+  color: black;
+}
+.section-3 .monthly-bills p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  padding-bottom: 2px;
+}
+.section-3 .monthly-bills .total p {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.section-3 .monthly-bills .total p.gray {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.section-3 .monthly-bills p.price {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+/* ------------------------------------------ */
+.monthly-bills .title-bills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.monthly-bills .total {
+  text-align: center;
+  padding: 20px 0;
+}
+.monthly-bills .bg-div-color {
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px 15px;
+}
+.four-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "internet electric"
+    "internet electric"
+    "phone netflix "
+    "phone netflix";
+}
+.internet {
+  grid-area: internet;
+}
+
+.electric {
+  grid-area: electric;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.netflix {
+  grid-area: netflix;
+}
+/* -----------section-4----- */
+.section-4 {
+  margin-top: 20px;
+  /* background-color: white; */
+}
+.budget {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+.budget .total-budget {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #eff4ff;
+  padding: 10px;
+}
+.budget .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.budget .title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.budget .title span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: oklch(0.446 0.03 256.802);
+  cursor: pointer;
+}
+.budget .title span:hover {
+  color: black;
+}
+.budget .total-budget .content-budget {
+  display: flex;
+  align-items: center;
+  gap: 50%;
+}
+.budget .total-budget .content-budget p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.budget .total-budget .remaining {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.budget .total-budget .remaining p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: oklch(0.379 0.146 265.522);
+}
+.budget .total-budget .remaining p.green {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: oklch(0.627 0.194 149.214);
+}
+.budget .total-budget .used {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.budget .total-budget .used span {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: oklch(0.446 0.03 256.802);
+}
+/* ---------bar----------- */
+.budget .bar {
+  background-color: #e5e7eb;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.budget .bar .fill-bar {
+  width: 82.5%;
+  height: 10px;
+  background-color: #4f6fff;
+  border-radius: 15px;
+}
+/* ----------entertainment-- */
+.budget .card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.bg-color-budget {
+  background-color: #fcfcfd;
+}
+.card .card-icon i {
+  background-color: #ffedd4;
+  padding: 10px;
+  color: #ff6900;
+  border-radius: 5px;
+}
+.card .logo-content .card-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card .logo-content .card-icon .icon-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: oklch(0.21 0.034 264.665);
+}
+.card .logo-content .card-icon .icon-content p.gray {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: oklch(0.551 0.027 264.364);
+}
+.card .price-budget p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: oklch(0.21 0.034 264.665);
+}
+.card .price-budget span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgb(22, 101, 52);
+  background-color: #dcfce7;
+  border-radius: 15px;
+  padding: 2px 8px;
+}
+.budget .card .logo-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.budget .bar {
+  background-color: #e5e7eb;
+  border-radius: 15px;
+}
+.budget .bar .orange {
+  width: 50%;
+  height: 10px;
+  background-color: #ff6900;
+  border-radius: 15px;
+}
+/* ------------------------- */
+.budget .bills-budget .card-icon i {
+  background-color: #fee2e2;
+  color: #fb2c36;
+}
+.bills-budget .price-budget span {
+  background-color: #fee2e2;
+  color: #a84345;
+}
+.budget .bar .red {
+  width: 100%;
+  height: 10px;
+  background-color: #fb2c36;
+  border-radius: 15px;
+}
+/* ----------------------------------------- */
+.budget .personal-care .card-icon i {
+  background-color: #fce7f3;
+  color: #e60076;
+}
+.personal-care .price-budget span {
+  background-color: #fef3c7;
+  color: #a55e24;
+}
+.budget .bar .purple {
+  width: 80%;
+  height: 10px;
+  background-color: #e60076;
+  border-radius: 15px;
+}
+/* ----------------------------------- */
+.budget .home-supplies .card-icon i {
+  background-color: #dcfce7;
+  color: #00c950;
+}
+.home-supplies .price-budget span {
+  background-color: #dcfce7;
+}
+.budget .bar .green-bar {
+  width: 86%;
+  height: 10px;
+  background-color: #00c950;
+  border-radius: 15px;
+}
+/* ---------------------------- */
+.analysis {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+}
+.analysis .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.analysis .title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.analysis .title span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: gray;
+  cursor: pointer;
+}
+.analysis .title span:hover {
+  color: black;
+}
+/* ----------------- */
+.analysis .legend span {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: rgb(100, 116, 139);
+}
+.analysis .legend {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.analysis .legend .legend-item span.green-square {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 4px;
+  background-color: #10b981;
+}
+.analysis .legend .legend-item span.red-square {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 4px;
+  background-color: #ef4444;
+}
+/* -----------charts---------- */
+.analysis .charts-group p.gray {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.analysis .charts-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.analysis .bar-group .bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+}
+/* ---------bars color----------- */
+.analysis .bars .bar {
+  width: 16px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+/* ------------------- */
+.analysis .bars .bar-green {
+  background-color: #10b981;
+}
+.analysis .bars .bar-red {
+  background-color: #ef4444;
+}
+.analysis .bars .one {
+  height: 95px;
+}
+.analysis .bars .two {
+  height: 42px;
+}
+.analysis .bars .three {
+  height: 98px;
+}
+.analysis .bars .four {
+  height: 45px;
+}
+.analysis .bars .five {
+  height: 92px;
+}
+.analysis .bars .six {
+  height: 38px;
+}
+.analysis .bars .seven {
+  height: 96px;
+}
+.analysis .bars .eight {
+  height: 45px;
+}
+/* -------hover-message--------- */
+.analysis .bars .bar-green:hover {
+  background-color: rgba(5, 150, 105, 0.7);
+}
+.analysis .bars .bar-red:hover {
+  background-color: rgba(239, 68, 68, 0.7);
+}
+.hover-message {
+  opacity: 0;
+  position: absolute;
+  left: 25px;
+  top: 10px;
+  width: 100px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 4px 10px;
+  font-size: 12px;
+  text-align: center;
+  transition: opacity 0.2s ease;
+  transition-delay: 0.5s;
+}
+.bar:hover .hover-message {
+  opacity: 1;
+}
+/* -----------summary------ */
+.section-4 .summary {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 15px;
+}
+.summary .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.summary .title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.summary .title span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: gray;
+  cursor: pointer;
+}
+.summary .title span:hover {
+  color: black;
+}
+/* -----------cards--------- */
+.summary .card {
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.summary .card .logo-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.summary .logo-card i {
+  background-color: #dbeafe;
+  color: #155dfc;
+  padding: 10px;
+  border-radius: 5px;
+}
+.summary .card p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.summary .card .logo-card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.summary .card .logo-card p.gray {
+  font-size: 12px;
+  line-height: 16px;
+}
+/* --------colors of icons-------- */
+.summary .logo-card i.fa-piggy-bank {
+  background-color: #dbfce7;
+  color: #00a63e;
+}
+.summary .logo-card i.fa-credit-card {
+  background-color: #f3e8ff;
+  color: #9810fa;
+}
+/* --------payment-method-------- */
+.payment-method {
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.payment-method .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.payment-method .title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.payment-method .title span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: oklch(0.446 0.03 256.802);
+}
+.payment-method .title span:hover {
+  color: black;
+}
+/* -------master card--------- */
+.payment-method .credit-card {
+  background-color: transparent;
+  margin: 15px 0;
+  height: 180px;
+  perspective: 1000px;
+}
+.card-front,
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #372aac;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.card-back {
+  transform: rotateY(180deg);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.payment-method .credit-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+/* ------------front--------- */
+.payment-method .credit-card .card-front .header-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.payment-method .credit-card .card-front .header-card::after {
+  content: "اساسية";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 16%;
+  border-radius: 30px;
+  background-color: rgba(159, 153, 215, 0.9);
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.card-front .chip-div {
+  background-color: #5f55bd;
+  width: 60px;
+  height: 35px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-front .chip-div .chip-square {
+  background-color: #9f99d7;
+  width: 50%;
+  height: 50%;
+  border-radius: 3px;
+}
+.card-front .header-card .icon-visa img {
+  width: 50px;
+  height: auto;
+}
+.card-front p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: white;
+  padding-top: 5px;
+  
+}
+.card-front .card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-front .card-info .card-holder p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0;
+}
+.card-front .card-info .card-holder p.card-holder-color,
+.end-date p.card-holder-color {
+  color: #9f99d7;
+}
+.card-front .card-info .end-date p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0;
+}
+/* ------------back------------ */
+.payment-method .credit-card .card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+.card-front,
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+/* --------back -styling------------ */
+.card-back {
+  padding: 20px;
+  background-color: #0d1422;
+}
+.card-back .magnetic-strip {
+  height: 40px;
+  border-radius: 10px;
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+.card-back p.gray{
+  padding: 5px 0;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.48);
+}
+.card-back .signature-bar {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+}
+.card-back .signature-bar p {
+  padding-left: 10px;
+  font-family: monospace;
+  font-size: 14.4px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.card-back .signature-bar p::after {
+  content: "";
+  position: absolute;
+  width: 77%;
+  height: 13px;
+  left: 20%;
+  top: 20%;
+  background-color: #dbdee2;
+  border-radius: 10px;
+}
+.card-back .cvv-part {
+  padding-top: 5px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.card-back .cvv-part p.cvv-word {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: oklch(0.872 0.01 258.338);
+  padding-left: 35px;
+}
+.card-back .cvv-part .cvv-box p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(17, 24, 39);
+}
+.card-back .cvv-box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+/* ----------card 2--------- */
+.payment-method .credit-card .card-red
+.header-card::after {
+  display: none;
+}
+.credit-card .card-red{
+  background-color: #C70036;
+}
+.credit-card .card-red .master-card img{
+  width: 50px;
+  height: auto;
+}
+/* ----------card 3--------- */
+.payment-method .credit-card 
+.light-blue
+.header-card::after {
+  display: none;
+}
+.credit-card .light-blue{
+  background-color: #193CB8;
+}
+.credit-card .light-blue 
+.paypal img{
+  width: 50px;
+  height: auto;
+}
+.credit-card .light-blue .end-date p.green{
+  color: #0CA38C;
+}
+.credit-card .card-back .cvv-part
+p.word-big{
+  padding-left: 50px;
+}
+.credit-card .card-back .cvv-part
+.big{
+  width: 25%;
+}
+
+
+
+
+
