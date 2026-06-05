@@ -125,14 +125,16 @@ body {
 .section-1 .header .profile .icons i:hover {
   background-color: #f9fafb;
 }
-.section-1 .header .profile .icons span {
+
+.section-1 .header .profile .icons i.fa-bell::after {
+  content: "2";
+  position: absolute;
   text-align: center;
   width: 12px;
   background-color: red;
   border-radius: 50%;
   font-size: 9px;
   color: white;
-  position: absolute;
   top: -5px;
   left: 30%;
 }
