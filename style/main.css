@@ -614,10 +614,10 @@ table.transaction-table td .badge-salary {
 /* ---------bar----------- */
 @keyframes growBarFromZero {
   from {
-    transform: scaleX(0); 
+    transform: scaleX(0);
   }
   to {
-    transform: scaleX(1); 
+    transform: scaleX(1);
   }
 }
 .budget .bar {
@@ -988,7 +988,7 @@ table.transaction-table td .badge-salary {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 80%;
   height: 100%;
   background-color: #372aac;
   border-radius: 15px;
